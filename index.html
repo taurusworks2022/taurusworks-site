@@ -3,18 +3,178 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TAURUS WORKS | GitHub Pages Test</title>
-  <meta name="description" content="TAURUS WORKS GitHub Pages test page">
+  <title>TAURUS WORKS / タウロス工房</title>
+  <meta name="description" content="タウロス工房は、アパレルサンプル製作・オーダーメイド・小規模量産・OEM/ODMを承ります。">
+  <meta property="og:title" content="TAURUS WORKS / タウロス工房">
+  <meta property="og:description" content="アパレルサンプル製作・オーダーメイド・小規模量産を承ります。">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#111111">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="hero">
-    <div class="card">
-      <p class="eyebrow">TAURUS WORKS</p>
-      <h1>GitHub Pages test</h1>
-      <p>このページが表示されれば、GitHub Pages の公開準備はOKです。</p>
-      <p class="note">現在の taurusworks.jp / Wraptas の設定にはまだ触れていません。</p>
-    </div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="TAURUS WORKS ホーム">
+      <span class="brand-main">TAURUS WORKS</span>
+      <span class="brand-sub">タウロス工房</span>
+    </a>
+    <nav class="nav" aria-label="メインナビゲーション">
+      <a href="#business">BUSINESS</a>
+      <a href="#about">ABOUT</a>
+      <a href="recruit.html">RECRUIT</a>
+      <a href="#information">INFO</a>
+      <a class="nav-contact" href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero-home">
+      <div class="hero-copy">
+        <p class="kicker">APPAREL PLANNING / PATTERN / SEWING</p>
+        <h1>MAKE<br>WHAT YOU<br>IMAGINE.</h1>
+        <p class="lead">アパレルサンプル製作 / オーダーメイド / 小規模量産を承ります。</p>
+        <p class="lead-sub">アパレルの知識が全くない方からもオーダーをお承りします。</p>
+        <a class="button button-dark" href="#business">事業を見る <span>↘</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="pattern-grid"></div>
+        <div class="hero-stamp">TAURUS<br>WORKS<br><small>EST. 2022</small></div>
+        <div class="measure-line measure-line-a"></div>
+        <div class="measure-line measure-line-b"></div>
+      </div>
+    </section>
+
+    <section class="section" id="business">
+      <div class="section-heading">
+        <p class="section-no">01</p>
+        <div>
+          <p class="eyebrow">OUR BUSINESS</p>
+          <h2>事業について</h2>
+        </div>
+      </div>
+
+      <div class="business-grid">
+        <article class="business-card business-card-featured">
+          <div class="business-visual melloth-visual">
+            <span class="melloth-mark">MELLOTH</span>
+            <span class="melloth-sub">Mellow &amp; Smooth</span>
+          </div>
+          <div class="business-body">
+            <p class="card-index">01 / BRAND</p>
+            <h3>MELLOTH</h3>
+            <p>テクノロリィタをコンセプトとするアパレルブランド。デザイナーのMILOLI様と共同で商品開発を行い、生産・販売はTAURUS WORKSが担当しています。</p>
+            <div class="text-links">
+              <a href="https://melloth.taurusworks.jp/" target="_blank" rel="noopener">ONLINE STORE ↗</a>
+              <a href="https://www.instagram.com/melloth_wear/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="business-card">
+          <div class="business-visual photo photo-oem" role="img" aria-label="衣料品とハンガーのイメージ"></div>
+          <div class="business-body">
+            <p class="card-index">02 / PRODUCTION</p>
+            <h3>OEM・ODM</h3>
+            <p>オリジナルアパレルのパターン作成・サンプル製作・仕様書作成・工場への発注や生産管理などを承ります。少数生産、小物生産、ネームタグ付けなどもご相談ください。</p>
+          </div>
+        </article>
+
+        <article class="business-card">
+          <div class="business-visual sewing-visual" aria-hidden="true">
+            <div class="stitch stitch-1"></div>
+            <div class="stitch stitch-2"></div>
+            <span>SEWING<br>SUPPORT</span>
+          </div>
+          <div class="business-body">
+            <p class="card-index">03 / SUPPORT</p>
+            <h3>レンタル縫製士</h3>
+            <p>クリエイター様やコスプレイヤー様向けに、縫製や造形のアドバイス、作業のお手伝いを1時間1,800円で承ります。出張も可能です。</p>
+          </div>
+        </article>
+
+        <article class="business-card">
+          <div class="business-visual photo photo-order" role="img" aria-label="縫製作業のイメージ"></div>
+          <div class="business-body">
+            <p class="card-index">04 / CUSTOM MADE</p>
+            <h3>オーダーメイド</h3>
+            <p>コスプレやアイドル衣装などのオーダーメイド受注を承ります。タイミングや納期によってお受けできない場合もございますが、ぜひ一度ご相談ください。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="about">
+      <div class="section-heading section-heading-light">
+        <p class="section-no">02</p>
+        <div>
+          <p class="eyebrow">ABOUT US</p>
+          <h2>事業者情報</h2>
+        </div>
+      </div>
+      <dl class="company-list">
+        <div><dt>屋号</dt><dd>タウロス工房</dd></div>
+        <div><dt>設立</dt><dd>2022年9月</dd></div>
+        <div><dt>所在地</dt><dd>兵庫県神戸市中央区磯辺通1丁目1番18号<br>カサベラ国際プラザビル707号室</dd></div>
+      </dl>
+    </section>
+
+    <section class="section recruit-teaser" id="recruit">
+      <div class="section-heading">
+        <p class="section-no">03</p>
+        <div>
+          <p class="eyebrow">RECRUIT</p>
+          <h2>採用情報</h2>
+        </div>
+      </div>
+      <div class="recruit-box">
+        <div>
+          <p class="recruit-big">縫製スタッフを<br>募集しています。</p>
+          <p>ものづくりが好きな方、特殊な仕様にも一緒に挑戦してくれる方を募集しています。</p>
+        </div>
+        <div class="recruit-conditions">
+          <p class="mini-label">採用条件</p>
+          <ul>
+            <li>縫製経験3年以上（独学可）</li>
+            <li>神戸市のアトリエに出勤できる方</li>
+            <li>在宅勤務スタッフ：職業用または工業用ミシンをお持ちの方</li>
+          </ul>
+          <a class="button button-dark" href="recruit.html">詳しい採用情報 <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="information">
+      <div class="section-heading">
+        <p class="section-no">04</p>
+        <div>
+          <p class="eyebrow">INFORMATION</p>
+          <h2>新着情報</h2>
+        </div>
+      </div>
+      <div class="news-list">
+        <div class="news-row"><time datetime="2024-06-19">2024.06.19</time><p>神戸市須磨区にアトリエを開設</p></div>
+        <div class="news-row"><time datetime="2024-05-26">2024.05.26</time><p>“MELLOTH with TAURUS WORKS”をローンチ</p></div>
+        <div class="news-row"><time datetime="2024-04-01">2024.04.01</time><p>兵庫県尼崎市に裁断用アトリエをオープン</p></div>
+        <div class="news-row"><time datetime="2022-09-14">2022.09.14</time><p>神戸市の自宅の一室をアトリエにして開業</p></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="section-no">05</p>
+      <p class="eyebrow">CONTACT</p>
+      <h2>お問い合わせ</h2>
+      <p class="contact-copy">ご依頼・お見積り・採用について、お気軽にお問い合わせください。</p>
+      <p class="business-hours">営業時間　平日 9:00〜18:00</p>
+      <a class="button button-light" href="https://taurusworks.jp/dc6c90bd975d45ef94b57cfe9bcf0f8d" target="_blank" rel="noopener">現在のお問い合わせフォーム <span>↗</span></a>
+      <p class="migration-note">※ お問い合わせフォームは現在移行準備中です。独自ドメイン切替前に新フォームへ差し替えます。</p>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div>
+      <p class="footer-brand">TAURUS WORKS</p>
+      <p>タウロス工房</p>
+    </div>
+    <p>© TAURUS WORKS</p>
+  </footer>
 </body>
 </html>
